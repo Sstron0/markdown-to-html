@@ -100,7 +100,9 @@ export default function RootLayout({
             </div>
             <NetworkStatus />
             <Toaster />
-            <Analytics />
+            <Suspense fallback={null}>
+              <Analytics />
+            </Suspense>
           </ErrorBoundary>
         </ThemeProvider>
         {/* Structured Data */}
