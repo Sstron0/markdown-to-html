@@ -1,17 +1,17 @@
-import type React from "react"
-import "./globals.css"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
-import { Toaster } from "@/components/ui/toaster"
-import { NetworkStatus } from "@/components/network-status"
-import { ErrorBoundary } from "@/components/error-boundary"
-import { Analytics } from "@/components/analytics"
-import { Suspense } from "react"
-
-const inter = Inter({ subsets: ["latin"] })
+import type React from "react";
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import { Toaster } from "@/components/ui/toaster";
+import { NetworkStatus } from "@/components/network-status";
+import { ErrorBoundary } from "@/components/error-boundary";
+import { Analytics } from "@/components/analytics";
+import { Suspense } from "react";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
@@ -62,13 +62,13 @@ export const metadata: Metadata = {
     maximumScale: 5,
   },
   category: "technology",
-    generator: 'v0.dev'
-}
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -89,7 +89,14 @@ export default function RootLayout({
         <link rel="preconnect" href="https://www.googletagmanager.com" />
       </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <VercelAnalytics />
+        {/* Theme Provider */}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <ErrorBoundary>
             <div className="flex flex-col min-h-screen">
               <Navbar />
@@ -135,5 +142,5 @@ export default function RootLayout({
         />
       </body>
     </html>
-  )
+  );
 }
